@@ -10,28 +10,22 @@
 /* COMMON */
 
 .container {
+    padding: 30px 10px;
     width: 75%;
     margin: 0px auto;
     display: flex;
     align-items: center;
 }
 
-.bars {
+.bar {
     border: 2px dashed black;
     padding: 10px;
 }
-
-/* Debug */
-
-/* body {
-    background-color: lightsalmon;
-} */
 
 
 /* HEADER */
 
 header {
-    padding: 30px 10px;
     display: flex;
     justify-content: center;
 
@@ -77,6 +71,28 @@ header {
 }
 
 /* Multi-Content Section */
+
+.inverted-multi-content {
+    background-color: rgba(211, 211, 211, 1);
+}
+
+.pink {
+    background-color: rgba(255, 192, 203, 1);
+    flex-grow: 1;
+
+    /* Debug */
+    height: 300px;
+}
+
+.lightblue {
+    background-color: rgba(30, 144, 255, 1);
+    flex-grow: 2;
+
+    /* Debug */
+    height: 300px;
+}
+
+
 
 /* Mono-Content Section */
 
