@@ -12,10 +12,29 @@
 
 
 /* Debug */
-body {
+
+/* body {
     background-color: lightsalmon;
-}
+} */
 
 
 /* HEADER */
+
+header {
+    background-color: rgba(173, 216, 230, 1);
+}
+
+.nav-container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-bars {
+    background-color: rgba(218, 165, 32, 1);
+    border: 1px black;
+}
+
+/* COLORS SECTION */
 
