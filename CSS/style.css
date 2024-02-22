@@ -21,20 +21,43 @@
 /* HEADER */
 
 header {
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+
+    /* Debug */
     background-color: rgba(173, 216, 230, 1);
 }
 
 .nav-container {
-    width: 60%;
+    background-color: rgba(218, 165, 32, 1);
+    width: 70%;
+    margin: 0px auto;
     display: flex;
-    justify-content: center;
+    align-items: center;
 
 }
 
 .nav-bars {
-    background-color: rgba(218, 165, 32, 1);
-    border: 1px black;
+    border: 2px dashed black;
+    padding: 10px;
 }
+
+.logo {
+    width: 25%;
+
+}
+
+.nav {
+    width: 50%;
+    text-align: center;
+}
+
+.login {
+    width: 25%;
+    text-align: end;
+}
+
 
 /* COLORS SECTION */
 
