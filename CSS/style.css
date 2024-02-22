@@ -9,7 +9,10 @@
 
 /* COMMON */
 
-
+.bars {
+    border: 2px dashed black;
+    padding: 10px;
+}
 
 /* Debug */
 
@@ -36,11 +39,6 @@ header {
     display: flex;
     align-items: center;
 
-}
-
-.nav-bars {
-    border: 2px dashed black;
-    padding: 10px;
 }
 
 .logo {
