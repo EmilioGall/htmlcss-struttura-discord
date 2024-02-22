@@ -33,8 +33,6 @@
 /* HEADER */
 
 header {
-    display: flex;
-    justify-content: center;
 
     /* Debug */
     background-color: rgba(173, 216, 230, 1);
