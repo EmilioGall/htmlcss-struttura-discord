@@ -10,11 +10,18 @@
 /* COMMON */
 
 .container {
-    padding: 30px 10px;
     width: 75%;
     margin: 0px auto;
     display: flex;
     align-items: center;
+}
+
+.padding-small{
+    padding: 15px 10px;
+}
+
+.padding-normal {
+    padding: 30px 10px;
 }
 
 .bar {
